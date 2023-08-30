@@ -808,7 +808,9 @@ def verificar_codigo():
         etiquta7.place(x=500, y=10)
 
         etiquta8=Label(tab6, text=
-        "Hora del partido: " + hora_partido6 + "\n\n\n\n"
+        "Partido:" + equipo_local11 + resultado20 + "   "
+        + resultado21 + " " + equipo_visitante11 + "\n"
+       "Hora del partido: " + hora_partido11 + "\n\n\n\n"
        "Partido:" + equipo_local7 + resultado12 + "   "
         + resultado13 + " " + equipo_visitante7 + "\n"
         "Hora del partido: " + hora_partido7 + "\n\n\n\n"
@@ -824,30 +826,24 @@ def verificar_codigo():
         etiquta8.place(x=500, y=10)
 
         etiquta9=Label(tab7, text=
-        "Partido:" + equipo_local11 + resultado20 + "   "
-        + resultado21 + " " + equipo_visitante11 + "\n"
-        "Hora del partido: " + hora_partido11 + "\n\n\n\n"
         "Partido:" + equipo_local12 + resultado22 + "   "
         + resultado23 + " " + equipo_visitante12 + "\n"
-        "Hora del partido: " + hora_partido12 + "\n\n\n\n")
+        "Hora del partido: " + hora_partido12 + "\n\n\n\n"
+        "Partido:" + equipo_local13 + resultado24 + "   "
+        + resultado25 + " " + equipo_visitante13 + "\n"
+        "Hora del partido: " + hora_partido13 + "\n\n\n\n")
         etiquta9.place(x=500, y=10)
 
         etiquta10=Label(tab8, text=
-        "Partido:" + equipo_local13 + resultado24 + "   "
-        + resultado25 + " " + equipo_visitante13 + "\n"
-        "Hora del partido: " + hora_partido13 + "\n\n\n\n"
-        "Partido:" + equipo_local14 + resultado26 + "   "
-        + resultado27 + " " + equipo_visitante14 + "\n"
-        "Hora del partido: " + hora_partido14 + "\n\n\n\n")
-        etiquta10.place(x=500, y=10)
-
-        etiquta11=Label(tab4, text=
         "Partido:" + equipo_local14 + resultado26 + "   "
         + resultado27 + " " + equipo_visitante14 + "\n"
         "Hora del partido: " + hora_partido14 + "\n\n\n\n"
         "Partido:" + equipo_local15 + resultado28 + "   "
         + resultado29 + " " + equipo_visitante15 + "\n"
-        "Hora del partido: " + hora_partido15 + "\n\n\n\n"
+        "Hora del partido: " + hora_partido15 + "\n\n\n\n")
+        etiquta10.place(x=500, y=10)
+
+        etiquta11=Label(tab4, text=
         "Partido:" + equipo_local16 + resultado30 + "   "
         + resultado31 + " " + equipo_visitante16 + "\n"
         "Hora del partido: " + hora_partido16 + "\n\n\n\n"
